@@ -1,0 +1,11 @@
+load_rooms:
+    path:     /pokoje
+    defaults: { _controller: ReserveRoomBundle:LoadRooms:index }
+    
+add_reservation:
+    path:     /zarezerwuj-pokoj
+    defaults: { _controller: ReserveRoomBundle:ReserveRoom:index}
+    
+ajax:
+    path:     /ajax
+    defaults: { _controller: ReserveRoomBundle:Ajax:index }

@@ -1,0 +1,7 @@
+reserve_room:
+    resource: "@ReserveRoomBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

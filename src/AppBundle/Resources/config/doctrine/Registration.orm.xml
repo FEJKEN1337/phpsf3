@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Registration" table="registration">
+    <unique-constraints>
+      <unique-constraint name="id" columns="id"/>
+    </unique-constraints>
+    <id name="id" type="bigint" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="imie" type="string" column="imie" length="255" nullable="true"/>
+    <field name="nazwisko" type="string" column="nazwisko" length="255" nullable="true"/>
+    <field name="telefon" type="string" column="telefon" length="13" nullable="true"/>
+    <field name="tor" type="string" column="tor" length="1" nullable="true"/>
+    <field name="do" type="string" column="do" length="14" nullable="true"/>
+    <field name="od" type="string" column="od" length="5" nullable="true"/>
+    <field name="dataRezerwacji" type="string" column="data_rezerwacji" length="20" nullable="true"/>
+    <field name="timestamp" type="datetime" column="timestamp" nullable="true"/>
+  </entity>
+</doctrine-mapping>

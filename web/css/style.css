@@ -1,0 +1,364 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body
+{
+	overflow-y:hidden;
+	
+	background-image: url(/cyka/web/img/tlo.jpg);
+	background-attachment: scroll;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle  
+{
+	width: 960px;
+	margin: 80px;
+	text-align: center;
+	
+}
+.rectangle3
+{
+	width: 960px;
+	margin: 80px;
+
+	text-align: center;
+	
+}
+.square
+{
+	width: 50%;
+	float: left;
+	
+}
+
+#logo
+{
+	
+	float: left;
+	font-size: 80px;
+	width: 600px;
+	text-align: left;
+	font-family:'Lobster', sans-serif;
+	letter-spacing:2px;
+	
+	
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 80px;
+	text-align: right;
+	color: #1073b1
+}
+
+.tile1
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #1073b1;
+	float: left;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #1073b1;
+}
+
+.tile2
+{
+	margin: 10px;
+	width: 420px;
+	height: 170px;
+	background-color:  #1073b1;
+	text-align: center;
+	font-size: 40px;
+	padding: 30px;
+	line-height: 150%;
+}
+
+
+.tile2:hover
+{
+	
+	background-color: #008800;
+}
+
+.tile3
+{
+	margin: 10px;
+	width: 440px;
+	height: 170px;
+	background-color: #1073b1;
+	text-align: justify;
+	padding: 30px;
+}
+.tile4
+{
+	margin: 10px;
+	width: 500px;
+	height: 122px;
+	padding-top: 20px;
+	background-color: #1073b1;
+	text-align: center;
+	float: left;
+	font-size: 40px;
+	
+}
+
+.tile4:hover
+{
+	
+	background-color: #220055;
+}
+
+.tile5
+{
+	margin: 10px;
+	width: 1000px;
+	height: 142px;
+	background-color: #1073b1;
+	float: left;
+	text-align: center;
+}
+
+
+.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #1073b1;
+	float: left;
+}
+.inst{
+position: relative;
+    width: 105px;
+    bottom: 140px;
+    left: 105px;
+    height: 142px;
+	color: white;
+	
+}
+
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.tilelinkhtml5
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
+}
+ /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('/img/5.jpg') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('/img/5.jpg') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+        
+        #rezerwacja {
+            text-decoration: none;
+            color:#fff;
+        }
+        
+        #fulldiv {
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    height:100%;
+    
+    background:rgba(255,255,255, 0.5);
+    z-index:499;
+    
+}
+
+#fulldiv-content {
+        width:1098px;
+        height:550px;
+        -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+       
+        background:#1073b1;
+        position:fixed;
+        left:50%;
+        top:45%;
+        z-index:500;
+        margin:0 auto;
+        margin-left:-549px;
+        margin-top: -250px;
+}
+
+#fulldiv-content form label{
+    display:inline-block;
+    width:200px;
+    text-align: right;
+    margin-right: 10px;
+}
+#fulldiv-content form input{
+    
+}
+#rezerwacja-container {
+    width:100%;
+    font-size: 15px;
+}
+.weekSchedule {
+    display:inline-block;
+    float:left;
+    width:14.25%;
+    text-align: center;
+    height:500px;
+}
+
+.weekSchedule .weekDateShow {
+    background:#0062A0;
+    border:1px solid black;
+    border-top:0px;
+}
+
+.currentDay {
+    color:black;
+}
+
+.timeContainer {
+    height:36px;
+    border-bottom: 1px solid black;
+    position:relative;
+    margin-bottom: 3px;
+}
+
+.timeContainer:last-child {
+    border-bottom: 0px;
+}
+.timeContainer p {
+    text-align: left;
+    width:15px;
+    position:absolute;
+    top:5px;
+}
+.halfHour, .fullHour {
+    text-align: left;
+    width:21px;
+    height:15px;
+    margin-bottom: 2px;
+    display: block;
+    background:#000; 
+}
+
+.halfHour:hover, .fullHour:hover {
+    background:white;
+    cursor:pointer;
+}
+
+.torContainer {
+    display:inline-block;
+}
+
+.torNumber p {
+    display:inline-block;
+    text-align: center;
+    width:20px;
+}
+
+.reserved {
+    background: white;
+    cursor:default;
+}
+
+.godziny-rezerwacji input{
+    width:50px;
+}
+#fulldiv-content .godziny-rezerwacji label{
+}
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px;
+        z-index:99999;
+}
+
+.tooltip span {
+   
+}

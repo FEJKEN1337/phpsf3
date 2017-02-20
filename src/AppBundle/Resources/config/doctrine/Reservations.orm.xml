@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Reservations" table="reservations">
+    <indexes>
+      <index name="room_id" columns="room_id"/>
+    </indexes>
+    <id name="id" type="smallint" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="name" type="string" column="name" length="20" nullable="false"/>
+    <field name="surname" type="string" column="surname" length="20" nullable="false"/>
+    <field name="phone" type="string" column="phone" length="20" nullable="false"/>
+    <field name="reservationFrom" type="integer" column="reservation_from" nullable="false"/>
+    <field name="reservationTo" type="integer" column="reservation_to" nullable="false"/>
+    <field name="ammountOfDays" type="smallint" column="ammount_of_days" nullable="false"/>
+    <field name="ammountOfPeople" type="smallint" column="ammount_of_people" nullable="false"/>
+    <many-to-one field="room" target-entity="Rooms">
+      <join-columns>
+        <join-column name="room_id" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

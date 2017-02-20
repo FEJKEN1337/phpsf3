@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="water" unicode="&#xe800;" d="m168 844q10-86 50-155t73-123 33-112q0-66-48-113t-114-47-114 47-48 113q0 58 33 112t73 123 50 155q2 4 7 4t5-4z m616 0q10-86 50-155t73-123 33-112q0-66-48-113t-114-47-114 47-48 113q0 48 21 93t48 78 53 92 34 127q2 4 7 4t5-4z m-320-444q2 4 7 4t5-4q10-86 50-155t73-123 33-112q0-66-48-113t-114-47-114 47-48 113q0 58 33 112t73 123 50 155z" horiz-adv-x="940" />
+<glyph glyph-name="money" unicode="&#xe801;" d="m429 207h214v54h-72v250h-63l-83-77 43-44q24 20 31 31h1v-160h-71v-54z m285 143q0-39-11-79t-34-75-56-56-77-22-77 22-57 56-33 75-12 79 12 79 33 75 57 56 77 22 77-22 56-56 34-75 11-79z m286-143v286q-59 0-101 42t-42 101h-643q0-59-42-101t-101-42v-286q60 0 101-42t42-101h643q0 59 42 101t101 42z m71 464v-642q0-15-10-26t-25-10h-1000q-15 0-25 10t-11 26v642q0 15 11 26t25 10h1000q14 0 25-10t10-26z" horiz-adv-x="1071.4" />
+<glyph glyph-name="facebook-official" unicode="&#xe802;" d="m810 779q19 0 33-14t14-34v-762q0-20-14-34t-33-14h-218v332h111l16 130h-127v83q0 31 13 46t51 16l68 1v115q-35 5-100 5-75 0-121-45t-45-126v-95h-112v-130h112v-332h-411q-19 0-33 14t-14 34v762q0 20 14 34t33 14h763z" horiz-adv-x="857.1" />
+<glyph glyph-name="instagram" unicode="&#xe803;" d="m760 54v362h-75q11-35 11-73 0-71-36-130t-97-94-134-35q-110 0-188 76t-78 183q0 38 11 73h-79v-362q0-14 10-24t25-10h596q14 0 24 10t10 24z m-158 298q0 69-51 118t-122 49q-71 0-121-49t-51-118 51-118 121-49q72 0 122 49t51 118z m158 201v92q0 15-11 27t-27 11h-98q-16 0-27-11t-11-27v-92q0-17 11-28t27-11h98q16 0 27 11t11 28z m97 116v-638q0-45-32-77t-78-33h-637q-45 0-78 33t-32 77v638q0 45 32 77t78 33h637q45 0 78-33t32-77z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

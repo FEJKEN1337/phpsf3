@@ -1,0 +1,13 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: utopsie
+    database_user: utopsie
+    database_password: utopsie
+    database_driver: pdo_mysql
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 5f2fbd63ec879c6f6cfe7f5b15cd11c060f13688
